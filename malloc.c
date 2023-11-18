@@ -1,3 +1,15 @@
+enter the no of rows and cols 3 3
+3 3
+enter the array
+1 2 3
+4 5 6
+ 7 8 9
+ 7 8 9
+displaying array elements
+1	2	3	
+4	5	6	
+7	8	9	
+
 #include<stdio.h>
 #include<stdlib.h>
 int main()
