@@ -13,8 +13,9 @@ max2=7
 #include<stdio.h>
 int main()
 {
-  printf("enter array elements:");
+ 
   int a[5],max1=0,max2=0;
+   printf("enter array elements:");
 for(int i=0;i<5;i++)
 {
 scanf("%d",&a[i]);
@@ -30,7 +31,7 @@ else if(a[i]>max2 && a[i]<max1)
 {
 max2=a[i];
 }
+}
 printf("max1=%d\n",max1);
 printf("max2=%d\n",max2);
-return 0;
-}}
+}
